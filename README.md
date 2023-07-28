@@ -57,9 +57,9 @@ This is a demo Ruby on Rails 7 application which imports and uses Slim Select 2 
 
 ### Prerequisites
 
-- [Rails](https://guides.rubyonrails.org/)
 - [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
 - [Ruby](https://github.com/microverseinc/curriculum-ruby/blob/main/simple-ruby/articles/ruby_installation_instructions.md)
+- [Rails](https://guides.rubyonrails.org/)
 - [PostgreSql](https://www.postgresql.org/)
 
 ### Setup
@@ -71,6 +71,9 @@ Clone this repository:
 `cd rails-slim-select`
 
 ## <b>Install</b>
+`gem install bundler`
+
+`bundle install`
 
 `bin/rails db:setup`
 
